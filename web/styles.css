@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #0B4C5E;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.bio, .hobbies {
+  margin-bottom: 30px;
+}
+
+.bio h2, .hobbies h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.bio p {
+  line-height: 1.6;
+}
+
+.hobbies ul {
+  list-style-type: none;
+}
+
+/* Footer styles */
+footer {
+  background-color: #4B3A53;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+}
